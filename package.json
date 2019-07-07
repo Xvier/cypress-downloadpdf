@@ -1,0 +1,29 @@
+{
+  "name": "cypress-downloadpdf",
+  "version": "0.5.4",
+  "description": "A plugin so that you can download pdf's with Cypress",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xvier/cypress-downloadpdf.git"
+  },
+  "keywords": [],
+  "author": "Xavier <xviuda@xebia.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xvier/cypress-downloadpdf/issues"
+  },
+  "homepage": "https://github.com/Xvier/cypress-downloadpdf#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "eslint": "^6.0.1"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
